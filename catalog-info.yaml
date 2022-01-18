@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: backstage-avro-a-to-b
-  description: Topic de datos entre service-a y service-b
+  description: Topic de comunicación entre service-a y service-b
 spec:
   type: avro
   lifecycle: experimental
